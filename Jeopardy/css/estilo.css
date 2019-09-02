@@ -184,6 +184,19 @@ h2 hr{
 	background: rgba(255, 255, 255, .5);
 }
 
+.questions-draw{
+	width: 90%;
+
+	margin: 25px 5%;
+	border-radius: 25px;
+
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+
+	background: rgba(255, 255, 255, .5);
+}
+
 .question{
 	width: 180px;
 	height: 100px;
@@ -220,6 +233,28 @@ h2 hr{
 	color: white;
 	text-align: center;
 	text-shadow: 2px 2px black;
+}
+
+.question-large p{
+	width: 100%;
+
+	padding-top: 15px;
+
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px black;
+}
+
+.question-large{
+	width: 360px;
+	height: 100px;
+
+	margin: 50px;
+	border-radius: 25px;
+
+	background: rgba(47, 79, 79, .75);
 }
 
 
