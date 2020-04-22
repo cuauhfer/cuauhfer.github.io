@@ -1,226 +1,118 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Curriculum</title>
-</head>
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lacquer|Noto+Sans|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link  rel="icon"   href="img/logoAB.png" type="image/png">
+    <title>TeachME | Perfil</title>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="profile">
+        <div class="cover"></div>
+        <div class="img" style="background-image: url('img/profile.jpg')"></div>
+        <div class="nombre">
+          <h1>Cuauhtli Fernando Benavides Hernández</h1>
+          <p>
+            Ingeniero en computación<br>
+            Programador<br>
+            Técnico en Informática<br>
+          </p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="user">
+        <div class="gen">
+          <h2>Cuauhtli Fernando Benavides Hernández</h2>
+        </div>
 
-<style type="text/css">
-	body{
-	    background-image: url("img/bg-img.jpg");
-   		background-repeat: no-repeat;
-   		background-size: cover;
-	}
-	
-	divtit{
-		font-size: 36px;
-	}
+        <hr>
+        <div class="info">
+          <h5>Experiencia</h5>
+          <p class="description">
+            Había una vez, un pequeño usuario que quería terminar su proyecto modular...</p>
+          <br>
+        </div>
 
-	.circulo {
-	    width: 20px;
-	    height: 20px;
-	    -moz-border-radius: 50%;
-	    -webkit-border-radius: 50%;
-	    border-radius: 50%;
-	    border: 3px solid #000;
-	    background: lightgray;
-	    margin: 5px;
-	}
+        <h5>Proyectos</h5>
+        <hr>
+        <!--
+        <div class="control">
+          <ul>
+            <a onclick=""><li><i class="fas fa-arrow-up row"></i> Fecha</li></a>
+            <a onclick=""><li><i class="fas fa-arrow-up row"></i> Nombre</li></a>
+            <a onclick=""><li><i class="fas fa-arrow-up row"></i> Valoración</li></a>
+            <a onclick=""><li><i class="fas fa-arrow-up row"></i> Vistas</li></a>
+          </ul>
+          <ul>
+            <li onclick="gridView();"><i class="fas fa-th"></i></li>
+            <li onclick="listView();"><i class="fas fa-list"></i></li>
+          </ul>
+        </div>-->
 
-	.circulofull {
-	    width: 20px;
-	    height: 20px;
-	    -moz-border-radius: 50%;
-	    -webkit-border-radius: 50%;
-	    border-radius: 50%;
-	    border: 3px solid #000;
-	    background: black;
-	    margin: 5px;
-	}
+        <div class="posted">
+          <div class="post">
+            <div class="img-post row-top" style="background-image: url('img/projects/iantic.gif');">
+              <div class="columns">
+                <h6 class="name">IAntic</h6>
+              </div>
+            </div>
+            <div class="row-bottom">
+              <span class="stars"><i class="fab fa-js" style="color: #F0DB4F;"></i> JS </span>
+              <span class="author"><i class="fas fa-code"></i> HTML, CSS, JS</span>
+              <span class="subject"><i class="fas fa-graduation-cap"></i> Inteligencia Artificial</span>
+              <span class="resume">Proyecto de inteligencia artificial, realiza búsquedas heuristicas a partir de mapas cargados desde un archivo de texto.</span>
+              <span class="date">15/Diciembre/2019 <a href="projects/iantic/index.html"><button class="btn auxiliary xsmall" type="button" name="button">Ver</button></a></span>
+            </div>
+          </div>
 
-	.circulohalf {
-	    width: 20px;
-	    height: 20px;
-	    -moz-border-radius: 50%;
-	    -webkit-border-radius: 50%;
-	    border-radius: 50%;
-	    border: 3px solid #000;
-	    border-left: 10px solid #000;
-	    background: lightgray;
-	    margin: 5px;
-	}
+          <div class="post">
+            <div class="img-post row-top" style="background-image: url('img/projects/jeopardy.png');">
+              <div class="columns">
+                <h6 class="name">Jeopardy!</h6>
+              </div>
+            </div>
+            <div class="row-bottom">
+              <span class="stars"><i class="fab fa-js" style="color: #F0DB4F;"></i> JS </span>
+              <span class="author"><i class="fas fa-code"></i> HTML, CSS, JS</span>
+              <span class="subject"><i class="fas fa-graduation-cap"></i> Proyecto personal</span>
+              <span class="resume">Actividad dinámica para una clase, un juego basado en puntos obtenibles al contestar preguntas</span>
+              <span class="date">01/Septiembre/2019 <a href="projects/jeopardy/index.html"><button class="btn auxiliary xsmall" type="button" name="button">Ver</button></a></span>
+            </div>
+          </div>
 
-	.bord{
-		border: 5px solid #000;
-	}
+          <div class="post">
+            <div class="img-post row-top" style="background-image: url('img/projects/Shooting stars.png');">
+              <div class="columns">
+                <h6 class="name">Shooting stars</h6>
+              </div>
+            </div>
+            <div class="row-bottom">
+              <span class="stars"><i class="fab fa-js" style="color: #F0DB4F;"></i> JS (Phaser)</span>
+              <span class="author"><i class="fas fa-code"></i> HTML, CSS, JS, Phaser</span>
+              <span class="subject"><i class="fas fa-graduation-cap"></i> Programación web</span>
+              <span class="resume">Videojuego creado en JS con la libreria Phaser</span>
+              <span class="date">01/Septiembre/2019 <a href="projects/shootingStars/index.html"><button class="btn auxiliary xsmall" type="button" name="button">Ver</button></a></span>
+            </div>
+          </div>
+        </div>
 
-</style>
 
-<body>
-	<header>
-		<br><br>
-	</header>
-	<div class="container" style="background-color: lightgray; border: 5px solid #000;">
-		<div class="row">
-			<div class="col-md-4">
-				<br>
-				<div style="background-image: url('img/Perfil.jpg');width: 250px; height: 300px; background-size: cover; background-position: center; background-repeat: no-repeat; border: 1px solid rgba(0, 0, 0, .75); margin: 0 auto;"></div>
-				<h2 class="text-center"><br> Cuauhtli Fernando 	<br> 
-				             Benavides Hernández</h2>			<br>
-				<p> Nacionality: Mexican					<br><br>
-					Email: cuauh_fer_bh@hotmail.com 			<br>
-					Secondary Email: cuauh.fer.bh@gmail.com 	<br><br>
-					<strong style="width: 100%; text-align: center;">Social networks:</strong>			<br><br>
-					<div style="display: flex; justify-content: space-around;">
-						<a style="text-decoration: none;" href="https://www.facebook.com/CuauhtliFernando.BH "><i class="fab fa-facebook-square fa-3x" style="color: rgba(0, 0, 0, .75);"></i> </a>
-						<a style="text-decoration: none;" href="https://twitter.com/cuauhfer"><i class="fab fa-twitter-square fa-3x" style="color: rgba(0, 0, 0, .75);"></i> </a>
-						<a style="text-decoration: none;" href="https://github.com/cuauhfer"><i class="fab fa-github fa-3x" style="color: rgba(0, 0, 0, .75);"></i></a>
-					</div>
-				</p>
-			</div>
-			<div class="col-md-8">
-				<br>
-				<p> <divtit class="font-weight-light">Education</divtit> <br>
-					High school <br>
-					Technical baccalaureate in computer science <br><br>
-					<divtit class="font-weight-light">Studies in progress: </divtit><br> 	Computer Engineering<br>
-				</p>
-				<p>
-					<divtit class="font-weight-light">Abilities</divtit><br>
-					High logic comprension <br>
-					Self learning <br>
-					Problem resolution <br>
-					Creativity <br>
-					Teamwork <br>
-				</p>
-				<p> <divtit class="font-weight-light">Experience</divtit><br>
-					Network installer <br>
-					installer of video surveillance cameras <br>
-					Technical support <br>
-					Web designer <br>
-					App programmer <br>
-				</p>
-				<p>
-					<divtit class="font-weight-light">Projects</divtit><br>
-					Database Manager in "KEET Database of Physical-Chemical Factors" <br>
-					Software Developer in "HELE Electronic blood count" <br>
-					Software developer in "SPE System of Educational Publications" <br>
-				</p>
-				<p> 
-					<divtit class="font-weight-light">Professional Interests</divtit><br>
-					To have the opportunity to continue developing personally and professionally in one of the most outstanding companies in the sector. <br>
-					Establish and consolidate myself in a company that gives me the opportunity to have job stability. <br>
-					Continue learning and updating my knowledge to improve myself professionally <br>
-				</p>
-				<p>
-				<divtit class="font-weight-light">Skills</divtit><br>
-					<table class="table table-borderless">
-						<tr><td>C++</td>
-							<td>
-								<div class="row">
-									<span class="circulofull"></span><span class="circulofull"></span> <span class="circulofull"></span> <span class="circulohalf"></span> <span class="circulo"></span>
-								</div>
-							</td>
-							<td>HTML</td>
-							<td>
-								<div class="row">
-									<span class="circulofull"></span><span class="circulofull"></span><span class="circulofull"></span><span class="circulofull"></span><span class="circulohalf"></span>
-								</div>
-							</td>
-						</tr>
-						<tr><td>QTCreator</td>
-							<td>
-								<div class="row">
-									<span class="circulofull"></span><span class="circulofull"></span><span class="circulo"></span><span class="circulo"></span><span class="circulo"></span>
-								</div>
-							</td>
-							<td>C#</td>
-							<td>
-								<div class="row">
-									<span class="circulofull"></span><span class="circulofull"></span><span class="circulofull"></span><span class="circulohalf"></span><span class="circulo"></span>
-								</div>
-							</td>
-						</tr>
-						<tr><td>Microsoft Office</td>
-							<td>
-								<div class="row">
-									<span class="circulofull"></span><span class="circulofull"></span><span class="circulofull"></span><span class="circulohalf"></span><span class="circulo"></span>
-								</div>
-							</td>
-							<td>PHP</td>
-							<td>
-								<div class="row">
-									<span class="circulofull"></span><span class="circulofull"></span><span class="circulofull"></span><span class="circulo"></span><span class="circulo"></span>
-								</div>
-							</td>
-						</tr>
-						<tr><td>Git</td>
-							<td>
-								<div class="row">
-									<span class="circulofull"></span><span class="circulofull"></span><span class="circulofull"></span><span class="circulo"></span><span class="circulo"></span>
-								</div>
-							</td>
-							<td>Blender</td>
-							<td>
-								<div class="row">
-									<span class="circulofull"></span><span class="circulohalf"></span><span class="circulo"></span><span class="circulo"></span><span class="circulo"></span>
-								</div>
-							</td>
-						</tr>
-						<tr><td>Processing</td>
-							<td>
-								<div class="row">
-									<span class="circulofull"></span><span class="circulofull"></span><span class="circulo"></span><span class="circulo"></span><span class="circulo"></span>
-								</div>
-							</td>
-							<td>Assembler</td>
-							<td>
-								<div class="row">
-									<span class="circulofull"></span><span class="circulofull"></span><span class="circulohalf"></span><span class="circulo"></span><span class="circulo"></span>
-								</div>
-							</td>
-						</tr>
-						<tr><td>Python</td>
-							<td>
-								<div class="row">
-									<span class="circulofull"></span><span class="circulofull"></span><span class="circulofull"></span><span class="circulohalf"></span><span class="circulo"></span>
-								</div>
-							</td>
-							<td>Linux</td>
-							<td>
-								<div class="row">
-									<span class="circulofull"></span><span class="circulofull"></span><span class="circulo"></span><span class="circulo"></span><span class="circulo"></span>
-								</div>
-							</td>
-						</tr>
-						<tr><td>Ionic</td>
-							<td>
-								<div class="row">
-									<span class="circulofull"></span><span class="circulofull"></span><span class="circulofull"></span><span class="circulohalf"></span><span class="circulo"></span>
-								</div>
-							</td>
-							<td></td>
-							<td>
-								
-							</td>
-						</tr>
-					</table>
-				</p>
-				<p>
-					<divtit class="font-weight-light">Language</divtit><br>
-					Spanish native <br>
-					English 40% <br>
-				</p>
-			</div>
-		</div>
-	</div>
-	<br><br>
-</body>
+      </div>
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+      </div>
+
+      <div class="habilities">
+
+      </div>
+    </main>
+  </body>
 </html>
