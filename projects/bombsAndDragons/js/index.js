@@ -791,7 +791,7 @@ function randomBanner(){
     var x = Math.floor(Math.random() * ($(document).width() - 0) + 0);
     var y = Math.floor(Math.random() * ($(document).height() - 0) + 0);
     var rotation = Math.floor(Math.random() * (90 - 0) + 0);
-    $('.banner').append('<img class="spirit" src="assets/darkSpirit.png" style="top: '+x+'px; left: '+y+'px; transform: rotate('+rotation+'deg)">');
+    $('.banner').append('<img class="spirit" src="assets/darkspirit.png" style="top: '+x+'px; left: '+y+'px; transform: rotate('+rotation+'deg)">');
   }
 }
 
