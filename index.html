@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/framework.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <link  rel="icon"   href="img/logoAB.png" type="image/png">
-    <title>Cuauhtli Fernando</title>
+    <title>Portafolios | Cuauhtli Fernando</title>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>
   </head>
@@ -28,26 +27,105 @@
         </div>
       </div>
     </header>
+
     <main>
       <div class="user">
         <div class="gen">
           <h2>Cuauhtli Fernando Benavides Hernández</h2>
         </div>
 
+        <h5 class="push" onclick="$('#resume').slideToggle(500);" title="comprimir">Resumen</h5>
         <hr>
-        <div class="info">
-          <h5>Experiencia</h5>
+        <div id="resume">
           <p class="description">
-            Estudiante de ingeniería en computación, entusiasta de las tecnologías de la información, la programación e inteligencia artificial. <br>
-            Experiencia como desarrollador de aplicaciones de escritorio, cableado estructurado, desarrollador de páginas y plataformas web. <br>
+            Estudiante de ingeniería en computación, técnico en Informática, entusiasta de las tecnologías de la información, la programación e inteligencia artificial. Entre mis pasatiempos están escuchar música, jugar videojuegos, leer y
+            aprender nuevas cosas.
           </p>
-          <br>
         </div>
+        <br>
 
-        <h5>Proyectos</h5>
+        <h5 class="push" onclick="$('#studies').slideToggle(500);" title="comprimir">Estudios</h5>
+        <hr>
+        <div id="studies">
+          <p class="description">
+            Técnico Profesional en Informática (TPI) en la escuela Politécnica de Guadalajara (2012 - 2016) <br><br>
+            Ingeniería en computación (INCO) en el Centro Universitario de Ciencias Exactas e ingenierías "CUCEI" (2016 - 2020) <br>
+          </p>
+        </div>
+        <br>
+
+        <h5 class="push" onclick="$('#languajes').slideToggle(500);" title="comprimir">Idiomas</h5>
+        <hr>
+        <div id="languajes">
+          <p class="description">
+            Español (Nativo)<br><br>
+            Inglés (Intermedio)<br>
+          </p>
+        </div>
+        <br>
+
+        <h5 class="push" onclick="$('#experience').slideToggle(500);" title="comprimir">Experiencia</h5>
+        <hr>
+        <div id="experience">
+          <h6>Servicio social - Auxiliar administrativo (Febrero 2015 - Agosto 2015)</h6>
+          <p class="description">
+            Auxiliar administrativo en el área de control escolar en la Escuela Politécnica de Guadalajara, donde realizaba actividades como atención a alumnos,
+            realización de tramites escolares, elaboración de documentos, control de listas, capturista de datos, entre otras.
+          </p>
+          <h6>Practicas profesionales - Instalador de cableado estructurado (Enero 2016 - Mayo 2016)</h6>
+          <p class="description">
+            Instalador de cableado estructurado, técnico en redes y soporte técnico en el Ayuntamiento de Guadalajara, donde realicé soporte, instalación y reparación
+            de las redes internas de las dependencias del ayuntamiento en sus distintas sedes.
+          </p>
+          <h6>Desarrollador Front-end (Marzo 2019 - Noviembre 2019)</h6>
+          <p class="description">
+            Desarrollador web, desarrollador Frontend de aplicaciones móviles, auxiliar de soporte técnico e instalador de infraestructura de red en Inovag SA de CV, durante ese tiempo, desarrollé
+            distintas páginas web informativas, tanto para la empresa como para sus asociadas, haciendo diseños desde 0 o desde WordPress, también realicé el diseño Frontend de una aplicación móvil y
+            actué como auxiliar y apoyo durante la instalación de las redes de la empresa y sus asociadas.
+          </p>
+          <h6>Servicio social - Desarrollador web (Agosto 2019 - Abril 2020)</h6>
+          <p class="description">
+            Desarrollador PHP de sistemas destinados a la automatización de procesos administrativos en la Universidad Tecnológica de Jalisco (UTJ), durante este periodo se desarrollaron 2 proyectos, estos están destinados a la automatización de
+            procesos administrativos de UTJ y la ANUIES. Las actividades incluyeron el estudio y levantamiento de requerimientos de los proyectos, diseño y maquetado de las vistas, programación de las funciones de los sistemas, pruebas, documentación y
+            presentación final del software producido.
+          </p>
+        </div>
+        <br>
+
+        <h5 class="push" onclick="$('#proyects').slideToggle(500);" title="comprimir">Proyectos</h5>
         <hr>
 
-        <div class="posted">
+        <div id="proyects" class="posted">
+          <div class="post">
+            <div class="img-post row-top" style="background-image: url('img/projects/teachMe.png');">
+              <div class="columns">
+                <h6 class="name">TeachMe</h6>
+              </div>
+            </div>
+            <div class="row-bottom">
+              <span class="stars"><i class="fab fa-python" style="color: #306998;"></i> Python (Django) </span>
+              <span class="author"><i class="fas fa-code"></i> Python, HTML, CSS, JS</span>
+              <span class="subject"><i class="fas fa-graduation-cap"></i> Plataforma de E-Learning</span>
+              <span class="resume">Plataforma de E-Learning desarrollada en Django e integrando tecnologías como JS, MySQL, MongoDB, Docker, Redis, Channels, IA, entre otras.</span>
+              <span class="date">27/Noviembre/2020 <a href="projects/teachMe/index.html"><button class="btn auxiliary xsmall" type="button" name="button">Ver</button></a></span>
+            </div>
+          </div>
+
+          <div class="post">
+            <div class="img-post row-top" style="background-image: url('img/projects/bombsdragons.png');">
+              <div class="columns">
+                <h6 class="name">Bombs & Dragons</h6>
+              </div>
+            </div>
+            <div class="row-bottom">
+              <span class="stars"><i class="fab fa-js" style="color: #F0DB4F;"></i> JS (Phaser)</span>
+              <span class="author"><i class="fas fa-code"></i> HTML, CSS, JS, Phaser</span>
+              <span class="subject"><i class="fas fa-graduation-cap"></i> Simulación por computadora</span>
+              <span class="resume">Videojuego creado en Phaser con múltiples elementos y eventos, como colisiones, mecánicas, controles, enemigos, sistema de puntos y UI.</span>
+              <span class="date">20/Mayo/2020 <a href="projects/bombsAndDragons/index.html"><button class="btn auxiliary xsmall" type="button" name="button">Ver</button></a></span>
+            </div>
+          </div>
+
           <div class="post">
             <div class="img-post row-top" style="background-image: url('img/projects/iantic.gif');">
               <div class="columns">
@@ -60,6 +138,36 @@
               <span class="subject"><i class="fas fa-graduation-cap"></i> Inteligencia Artificial</span>
               <span class="resume">Proyecto de inteligencia artificial, realiza búsquedas heurísticas a partir de mapas cargados desde un archivo de texto.</span>
               <span class="date">15/Diciembre/2019 <a href="projects/ia/index.html"><button class="btn auxiliary xsmall" type="button" name="button">Ver</button></a></span>
+            </div>
+          </div>
+
+          <div class="post">
+            <div class="img-post row-top" style="background-image: url('img/projects/inovag-web-page.png');">
+              <div class="columns">
+                <h6 class="name">Inovag web page</h6>
+              </div>
+            </div>
+            <div class="row-bottom">
+              <span class="stars"><i class="fab fa-php" style="color: #8993be;"></i> PHP </span>
+              <span class="author"><i class="fas fa-code"></i> HTML, CSS, PHP</span>
+              <span class="subject"><i class="fas fa-graduation-cap"></i> Página web</span>
+              <span class="resume">Página web informativa de Inovag SA de CV, desarrollada con PHP.</span>
+              <span class="date">01/Noviembre/2019 <a href="https://www.inovag.mx/" target="_blank"><button class="btn auxiliary xsmall" type="button" name="button">Ver</button></a></span>
+            </div>
+          </div>
+
+          <div class="post">
+            <div class="img-post row-top" style="background-image: url('img/projects/inovag-app.png');">
+              <div class="columns">
+                <h6 class="name">Inovag App</h6>
+              </div>
+            </div>
+            <div class="row-bottom">
+              <span class="stars"><i class="fas fa-mobile-alt"></i> Ionic</span>
+              <span class="author"><i class="fas fa-code"></i> Ionic, TypeScript, Ajax</span>
+              <span class="subject"><i class="fas fa-graduation-cap"></i> Aplicación móvil</span>
+              <span class="resume">Versión Frontend de la aplicación móvil de Inovag</span>
+              <span class="date">01/Noviembre/2019 <a href="projects/inovag-app/index.html"><button class="btn auxiliary xsmall" type="button" name="button">Ver</button></a></span>
             </div>
           </div>
 
@@ -93,24 +201,8 @@
             </div>
           </div>
 
-          <div class="post">
-            <div class="img-post row-top" style="background-image: url('img/projects/bombsdragons.png');">
-              <div class="columns">
-                <h6 class="name">Bombs & Dragons</h6>
-              </div>
-            </div>
-            <div class="row-bottom">
-              <span class="stars"><i class="fab fa-js" style="color: #F0DB4F;"></i> JS (Phaser)</span>
-              <span class="author"><i class="fas fa-code"></i> HTML, CSS, JS, Phaser</span>
-              <span class="subject"><i class="fas fa-graduation-cap"></i> Simulación por computadora</span>
-              <span class="resume">Videojuego creado en Phaser con multiples elementos y eventos, como colisiones, mecanicas, controles, enemigos, sistema de puntos y UI.</span>
-              <span class="date">20/Mayo/2020 <a href="projects/bombsAndDragons/index.html"><button class="btn auxiliary xsmall" type="button" name="button">Ver</button></a></span>
-            </div>
-          </div>
         </div>
 
-
-      </div>
       </div>
 
       <div class="habilities">
@@ -119,6 +211,11 @@
 
           <li>
             <span class="tool"><i class="fab fa-python"></i> Python</span>
+            <span class="percent"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i></span>
+          </li>
+
+          <li>
+            <span class="tool"><i class="fab fa-python"></i> Django</span>
             <span class="percent"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-adjust"></i><i class="far fa-circle"></i></span>
           </li>
 
@@ -144,27 +241,60 @@
 
           <li>
             <span class="tool"><i class="fab fa-git-square"></i> GIT </span>
-            <span class="percent"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-adjust"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></span>
+            <span class="percent"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></span>
           </li>
 
           <li>
             <span class="tool"><span class="togeter"><i class="fab fa-cuttlefish"></i><i class="fas fa-plus"></i><i class="fas fa-plus"></i></span> C++ </span>
-            <span class="percent"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-adjust"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></span>
+            <span class="percent"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></span>
           </li>
 
           <li>
             <span class="tool"><span class="togeter"><i class="fab fa-cuttlefish"></i><i class="fas fa-hashtag"></i></span> C# </span>
-            <span class="percent"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-adjust"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></span>
+            <span class="percent"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></span>
           </li>
 
           <li>
-            <span class="tool"><i class="fas fa-record-vinyl"></i> Ionic </span>
+            <span class="tool"><i class="fas fa-mobile-alt"></i> Ionic </span>
             <span class="percent"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></span>
           </li>
 
           <li>
             <span class="tool"><i class="fab fa-sass"></i> SASS </span>
             <span class="percent"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i></span>
+          </li>
+
+          <li>
+            <span class="tool"><i class="fas fa-file-excel"></i> Excel </span>
+            <span class="percent"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i></span>
+          </li>
+        </ul>
+
+        <h4>Contacto</h4>
+        <ul>
+          <li>
+            <span class="tool"><i class="far fa-envelope"></i> Email</span>
+            <span class="percent" style="color: black; font-size: 13px;">cuauh.fer.bh@gmail.com</span>
+          </li>
+          <li>
+            <span class="tool"><i class="fas fa-phone"></i> Telefóno</span>
+            <span class="percent" style="color: black;">33 1069 4784</span>
+          </li>
+          <li>
+            <span class="tool"><i class="fab fa-whatsapp"></i> Whatsapp</span>
+            <span class="percent" style="color: black;">33 1069 4784</span>
+          </li>
+          <li>
+            <span class="tool"><i class="fab fa-telegram-plane"></i> Telegram</span>
+            <span class="percent" style="color: black;">@cuauhfer / 33 1069 4784</span>
+          </li>
+          <li>
+            <span class="tool"><i class="fab fa-linkedin"></i> LinkedIn</span>
+            <span class="percent" style="color: black; font-size: 14px;">Cuauhtli Fernando Benavides Hernández</span>
+          </li>
+          <li>
+            <span class="tool"><i class="fab fa-github"></i> Github</span>
+            <span class="percent" style="color: black;"><a href="https://github.com/cuauhfer" target="_blank">github.com/cuauhfer</a></span>
           </li>
         </ul>
       </div>
