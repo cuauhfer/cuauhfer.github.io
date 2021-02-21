@@ -152,14 +152,18 @@
     align-items: center;
   }
 
-  .post .row-bottom .author{
+  .post .row-bottom .author, .post .row-bottom .subject{
     width: 100%;
-    height: 50px;
+    height: 25px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     color: rgba(15, 54, 187, 0.75);
     font-size: 12px;
+  }
+
+  .post .row-bottom .subject{
+    color: rgba(80, 15, 187, 0.75);
   }
 
   .post .row-bottom .resume{
