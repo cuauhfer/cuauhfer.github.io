@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec6b01fc.chunk.css",
-    "main.js": "/static/js/main.c1a85621.chunk.js",
-    "main.js.map": "/static/js/main.c1a85621.chunk.js.map",
+    "main.css": "/static/css/main.99b8d6e8.chunk.css",
+    "main.js": "/static/js/main.ce1e9767.chunk.js",
+    "main.js.map": "/static/js/main.ce1e9767.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
-    "static/js/2.8b800e2d.chunk.js": "/static/js/2.8b800e2d.chunk.js",
-    "static/js/2.8b800e2d.chunk.js.map": "/static/js/2.8b800e2d.chunk.js.map",
+    "static/js/2.03eafec5.chunk.js": "/static/js/2.03eafec5.chunk.js",
+    "static/js/2.03eafec5.chunk.js.map": "/static/js/2.03eafec5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ec6b01fc.chunk.css.map": "/static/css/main.ec6b01fc.chunk.css.map",
-    "static/js/2.8b800e2d.chunk.js.LICENSE.txt": "/static/js/2.8b800e2d.chunk.js.LICENSE.txt",
+    "static/css/main.99b8d6e8.chunk.css.map": "/static/css/main.99b8d6e8.chunk.css.map",
+    "static/js/2.03eafec5.chunk.js.LICENSE.txt": "/static/js/2.03eafec5.chunk.js.LICENSE.txt",
     "static/media/bg.bdbdf2a4.jpg": "/static/media/bg.bdbdf2a4.jpg",
     "static/media/bombsdragons1.png": "/static/media/bombsdragons1.d55b5167.png",
     "static/media/default.jpg": "/static/media/default.f08e355f.jpg",
@@ -45,6 +45,7 @@
     "static/media/pit7.png": "/static/media/pit7.7aa4870a.png",
     "static/media/pit8.png": "/static/media/pit8.e14e1792.png",
     "static/media/profile.1264008c.jpg": "/static/media/profile.1264008c.jpg",
+    "static/media/python-for-data-science.png": "/static/media/python-for-data-science.d4e81a9b.png",
     "static/media/scrum-fundamentals.png": "/static/media/scrum-fundamentals.22811691.png",
     "static/media/security-and-privacy-by-design-foundations.png": "/static/media/security-and-privacy-by-design-foundations.36b9e7dc.png",
     "static/media/shootingStars1.png": "/static/media/shootingStars1.a74396f3.png",
@@ -54,6 +55,7 @@
     "static/media/teachme3.png": "/static/media/teachme3.34f44009.png",
     "static/media/teachme4.png": "/static/media/teachme4.ce27e3f4.png",
     "static/media/teachme5.png": "/static/media/teachme5.6b0f4b6b.png",
+    "static/media/think-like-a-hacker.png": "/static/media/think-like-a-hacker.dae6f53a.png",
     "static/media/utj1.png": "/static/media/utj1.4a669904.png",
     "static/media/utj2.png": "/static/media/utj2.2fd7a090.png",
     "static/media/utj3.png": "/static/media/utj3.77332381.png",
@@ -64,8 +66,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b83279d6.js",
-    "static/js/2.8b800e2d.chunk.js",
-    "static/css/main.ec6b01fc.chunk.css",
-    "static/js/main.c1a85621.chunk.js"
+    "static/js/2.03eafec5.chunk.js",
+    "static/css/main.99b8d6e8.chunk.css",
+    "static/js/main.ce1e9767.chunk.js"
   ]
 }
